@@ -1,0 +1,20 @@
+{
+  "name": "cucumber-cypress_josearilson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:chrome": "cypress run -b chrome",
+    "cy:runTest": "cypress run --browser chrome --no-exit",
+    "cy:runDash": "cypress run --record"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  }
+}
